@@ -1,0 +1,533 @@
+/* ------------------ header st -----------------*/
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+}
+.div-web-logo{
+  margin-left: 1%; 
+  display: flex;
+  align-items: center;
+}
+.web-logo{
+  width: 73px;
+  border: 1px;
+  background-color: #fff;
+}
+.web-logo-img{
+  
+  width: 60px;
+}
+.div-user-name{
+  margin-right: 18%;
+  flex-direction: column ;
+  display: flex;
+  align-items: center;
+}
+.user-name{
+  display: block;
+  color: rgb(166, 166, 166);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: arial;
+  align-items: center;
+  margin-top: 7px;
+  font-weight: bold;
+}
+.welcome-back{
+  display: block;
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.div-search{
+  
+  display: flex;
+  align-items: center;
+  
+}
+.search{
+  border: 1px solid rgb(202, 202, 202);
+  background-color: rgb(246, 246, 246);
+  font-size: 23px;
+  border-radius: 11px;
+  padding: 5px 8px;
+}
+.div-profile{
+  width: 350px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+}
+.profile-img{
+  margin-right: 20px;
+  display: flex;
+  width: 55px;
+}
+.user-id{
+  margin-right: 90px;
+  font-family: arial;
+  display: flex;
+}
+.notification-button{
+  margin-right: 20px;
+  border: 1px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 50px;
+}
+.notification-img{
+  width: 40px;
+}
+/* ------------------ header -----------------*/
+.menu-container {
+  display: none;
+}
+
+/* ------------------ body -------------------*/
+
+/* ------------------ left div st -------------------*/
+.div-body{
+  display: flex;
+  justify-content:space-between;  flex-direction: row;
+  margin-top: 15px;
+}
+.div-side-bar{
+  margin-left: 2%;
+  flex-direction: column ;
+  display: flex;
+  align-items: center;
+}
+.knife-button,.profile-button,
+.wallet-button,.setting-button,.mail-button,.chart-button,.chat-button{
+  border: 1px;
+  margin-bottom: 25px;
+  background-color: #fff;
+}
+.knife-img,
+.sidebar-profile-img,
+.sidebar-wallet-img,
+.sidebar-setting-img,
+.sidebar-mail-img,
+.sidebar-chart-img,
+.sidebar-chat-img{
+  height: 36px;
+}
+/* ------------------ left div  -------------------*/
+
+/* ------------------ middle div st -------------------*/
+.div-middle-menu{
+  display: flex;
+  flex-direction: column;
+  
+}
+.div-banner{
+  height: 350px;
+  
+  display: flex;
+  flex-direction: row;
+  border: none;
+  border-radius: 40px;
+  padding-left: 20px;
+  background-color: rgb(36, 33, 33);
+  margin-bottom: 17px;
+}
+.div-sub-banner1{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.heading-banner{
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.percentage{
+  color: rgb(255, 153, 33);
+}
+.discription{
+  color: rgb(211, 211, 211);
+  font-size: 19px;
+  width: 350px;
+  margin-bottom: 29px;
+  font-family: arial;
+}
+.order-now-button{
+  height: 50px;
+  color: white;
+  background-color: rgb(255, 153, 33);
+  font-size: 22px;
+  width: 150px;
+  border-radius: 15px;
+  border: 1px white;
+}
+.div-sub-banner2{
+  display: flex;
+  
+}
+.goat-img{
+  width: 400px;
+}
+
+.div-chip-buttons{
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.our-menu{
+  display: flex;
+  font-weight: bold;
+  color: rgb(255, 153, 33);
+  font-size: 20px;
+  font-family: Arial;
+}
+.button-chip{
+  display: flex;
+  
+  border: 1px white;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 9px rgb(217, 217, 217); 
+  border-radius: 35px;
+  width: 140px;
+}
+.small-chip-image{
+  width: 45px;
+  display: inline-block;
+}
+.chip-text{
+  margin-left: 5px;
+  width: 50px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+}
+.button-div-chip{
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+.see-all{
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  color: rgb(255, 153, 33);
+  font-weight: bold;
+}
+.div-item-main{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.div-item-main-1{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  width: 48%;
+  box-shadow: 2px 2px 9px rgb(217, 217, 217);
+  border-radius: 25px;
+}
+.div-item-main-2{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 48%;
+  justify-content: space-between;
+  box-shadow: 2px 2px 9px rgb(217, 217, 217);
+  border-radius: 25px;
+  
+}
+.div-main-item-img{
+  display: flex;
+  width: 55%;
+}
+.main-item-img{
+  width: 216px;
+  border-radius: 20px;
+}
+.div-main-item-info{
+  
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+}
+.h1-mutton{
+  margin-left: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  font-family: arial;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.time{
+  color: grey;
+  width: 65px;
+  font-size: 25px;
+  margin: 0px 0px 35px 10px;
+  font-weight: bold;
+}
+
+.div-price-add{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.price{
+  font-weight: bold;
+  color: green;
+  font-size: 30px;
+  font-family: Times New Roman; 
+  margin: 8px 0px 0px 10px;
+}
+.add-button{
+  background-color: white;
+  border: none;
+  margin-right: 5px;
+}
+.plus-img{
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+}
+/* ------------------ middle div -------------------*/
+
+/* ------------------ right div st -------------------*/
+.div-right-coloumn{
+  display: flex ;
+  flex-direction: column;
+  width: 30%;
+}
+.div-main-cards{
+  display: flex;
+  flex-direction: column;
+  
+  padding: 10px 40px 10px 40px;
+  
+}
+.div-cards-title{
+  
+  margin-bottom: 10px;
+}
+.div-cards{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 9px rgb(217, 217, 217);
+  border-radius: 15px;
+  padding: 15px;
+  width: 300px;
+}
+
+.div-card-1{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+  padding: 6px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.div-card-and-number{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-card-number{
+  margin-left: 8px;
+}
+
+
+.div-add-newcard{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button-add-newcard{
+  background-color: white;
+  border-radius: 7px;
+  border: none;
+}
+.add-newcard-img{
+  background-color: #b5e9ff;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+.div-text-add-newcard{
+  margin-left: 10px;
+}
+.rightarrow-img{
+  background-color: #fff;
+  width: 20px;
+  margin-top: 3px;
+}
+.button-rightarrow{
+  background-color: #fff;
+  border: none;
+}
+
+.div-order-list-final{
+  display: flex;
+  flex-direction: column;
+  /*padding: 10px 30px 0px 30px;*/
+}
+.div-heading{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+  margin: 15px 0px 10px 0px;
+}
+.order-detail{
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: arial;
+}
+.div-button-seeall{
+  display: flex;
+  margin-right: 4%;
+}
+.seeall-final{
+  font-size: 25px;
+  background-color:white;
+  color: rgb(255, 153, 33);
+  border: none;
+  border-radius: 15px;
+}
+
+.div-items-in-order{
+  display: flex;
+  flex-direction: row;
+  box-shadow: 2px 2px 9px rgb(217, 217, 217);
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px ;
+  background-color: rgb(227, 233, 236);
+  margin-bottom: 10px;
+}
+.div-item-img{
+  display: flex;
+}
+.item-img{
+  border-radius: 15px;
+}
+.item-info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 40%;
+  
+}
+.item-name{
+  margin: 7px 0px 7px 0px;
+  font-weight: bold;
+ 
+}
+.item-quantity{
+  margin: 0px 0px 9px 0px;
+  color: grey;
+  font-weight: bold;
+  
+}
+.item-price{
+  margin: 0px 0px 0px 0px;
+  color: green;
+  font-weight: bold;
+}
+.div-quantity-change{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+}
+.button-item-change{
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 15px;
+}
+.product-change-img{
+  width: 40px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.quantity-count{
+  margin-top: 8px;
+  
+}
+.div-check{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.total-price{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial;
+  margin: 10px 0px 0px 0px;
+}
+.div-checkout{
+  display: flex;
+  width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+  cursor: pointer;
+}
+body{
+  padding-bottom: 50px;
+}
+
+
